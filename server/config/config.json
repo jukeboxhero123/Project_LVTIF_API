@@ -20,6 +20,9 @@
     "database": "d150lno1m8t1bl",
     "host": "ec2-52-72-162-207.compute-1.amazonaws.com",
     "port": 5432,
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": true
+    }
   }
 }
