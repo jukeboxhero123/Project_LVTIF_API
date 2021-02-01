@@ -1,10 +1,10 @@
 {
   "development": {
-    "username": "yopagtcnfpgkge",
-    "password": "9e8160683f83cad0741f099d0b972b9c1c1c957ae31fd0634f1e16ec1d584b21",
-    "database": "dc57hrtddkc77h",
-    "host": "ec2-3-232-92-90.compute-1.amazonaws.com",
-    "port": 5432,
+    "username": "postgres",
+    "password": "123",
+    "database": "LVTIF",
+    "host": "127.0.0.1",
+    "port": 5433,
     "dialect": "postgres"
   },
   "test": {
@@ -15,10 +15,11 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "yopagtcnfpgkge",
+    "password": "9e8160683f83cad0741f099d0b972b9c1c1c957ae31fd0634f1e16ec1d584b21",
+    "database": "dc57hrtddkc77h",
+    "host": "ec2-3-232-92-90.compute-1.amazonaws.com",
+    "port": 5432,
+    "dialect": "postgres"
   }
 }
